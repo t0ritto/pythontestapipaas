@@ -6,7 +6,7 @@
 GET https://{{host}}/students
 
 
-### Get student by id   
+### Get student by id 
 
 GET http://{{host}}/students/1
 
