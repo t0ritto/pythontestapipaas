@@ -1,17 +1,20 @@
-@host = webapi789.azurewebsites.net
+@url = miau333.azurewebsites.net
 #@host = 20.203.242.109
+
+### Get the homepage
+GET {{url}}
 
 ### Get all students
 
-GET https://{{host}}/students
+GET {{url}}/students
 
 
 ### Get student by id 
 
-GET http://{{host}}/students/1
+GET {{url}}/students/1
 
 ### Create student
-POST http://{{host}}/students
+POST {{url}}/students
 content-type: application/json
 
 {
@@ -21,7 +24,7 @@ content-type: application/json
 }
 
 ### Update student
-PUT http://{{host}}/students/1
+PUT {{url}}/students/1
 content-type: application/json
 
 {
@@ -31,4 +34,4 @@ content-type: application/json
 }
 
 ### Delete student
-DELETE http://{{host}}/students/3
+DELETE {{url}}/students/3
