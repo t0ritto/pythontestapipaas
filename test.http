@@ -1,5 +1,5 @@
-@url = miau333.azurewebsites.net
-#@host = 20.203.242.109
+#@url = miau333.azurewebsites.net
+@url = http://localhost:5000
 
 ### Get the homepage
 GET {{url}}
