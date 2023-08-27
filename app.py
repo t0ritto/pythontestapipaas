@@ -9,6 +9,10 @@ students = [
     {"id": 2, "name": "Sarah", "course": "Chemistry"},
 ]
 
+@app.route('/', methods=['GET'])
+def get_students():
+    return "This is the home page of the Python Flask application"
+
 @app.route('/students', methods=['GET'])
 def get_students():
     return jsonify({"students": students})
